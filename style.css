@@ -1,0 +1,64 @@
+h1
+{
+
+color:aquamarine;
+font-size:x-large !important;
+background-image: "ur.png" ;
+}
+
+#take_snap_btn
+{
+
+color: royalblue;
+background-color:lightcoral ;
+font-size: larger;
+width: 150px;
+height:90px;
+font-weight: bolder;
+
+}
+
+#take_snap_btn:hover
+{
+
+color:midnightblue;
+background-color: mediumspringgreen;
+
+}
+
+canvas
+{
+
+animation-name:ex;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+
+}
+
+@keyframes ex
+{
+
+1%{box-shadow: 5px 5px 38px aqua;}
+2%{box-shadow: 5px 5px 38px burlywood;}
+3%{box-shadow: 5px 5px 38px crimson;}
+4%{box-shadow: 5px 5px 38px darkmagenta;}
+5%{box-shadow: 5px 5px 38px forestgreen;}
+6%{box-shadow: 5px 5px 38px greenyellow;}
+7%{box-shadow: 5px 5px 38px hotpink;}
+8%{box-shadow: 5px 5px 38px indianred;}
+9%{box-shadow: 5px 5px 38px khaki;}
+10%{box-shadow: 5px 5px 38px lightcoral;} 
+11%{box-shadow: 5px 5px 38px mediumorchid;} 
+12%{box-shadow: 5px 5px 38px navy;} 
+13%{box-shadow: 5px 5px 38px olivedrab;}
+14%{box-shadow: 5px 5px 38px powderblue ;}
+15%{box-shadow: 5px 5px 38pxroyalblue;} 
+16%{box-shadow: 5px 5px 38pxspringgreen;} 
+17%{box-shadow: 5px 5px 38pxteal;} 
+18%{box-shadow: 5px 5px 38pxviolet;} 
+19%{box-shadow: 5px 5px 38pxwheat ;}  
+     20%{box-shadow: 5px 5px 38px royalblue ;}
+
+
+
+}
