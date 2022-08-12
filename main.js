@@ -5,7 +5,7 @@ eyeY="";
 function preload()
 {
 
-
+    tv = loadImage("https://i.postimg.cc/8zd7RY9d/p-9.jpg");
 
 }
 
@@ -60,7 +60,7 @@ function draw()
 image(video,0,0,400,400);
 
 
-
+image(tv,eyeX,eyeY,20,20);
 
 
 }
@@ -71,4 +71,3 @@ function take_snapshot()
 save("myfilterimage.png");
 
 }
-
